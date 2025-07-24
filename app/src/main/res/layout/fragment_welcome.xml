@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="16dp"
+    tools:context=".WelcomeFragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/alata_regular"
+        android:gravity="center_horizontal"
+        android:letterSpacing="0.05"
+        android:padding="24dp"
+        android:text="@string/welcome_text"
+        android:textColor="@color/text_primary"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/button_primary"
+        android:letterSpacing="0.1"
+        android:paddingHorizontal="48dp"
+        android:paddingVertical="12dp"
+        android:text="@string/start"
+        android:textColor="@color/button_text"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:contentDescription="@null"
+        android:layout_height="match_parent"
+        android:src="@drawable/plants" />
+
+</LinearLayout>
