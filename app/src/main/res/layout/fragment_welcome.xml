@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:gravity="center_horizontal"
     android:layout_marginTop="16dp"
-    tools:context=".WelcomeFragment"
-    android:orientation="vertical">
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".WelcomeFragment">
 
     <TextView
         android:layout_width="match_parent"
@@ -33,11 +33,5 @@
         android:text="@string/start"
         android:textColor="@color/button_text"
         android:textSize="20sp" />
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:contentDescription="@null"
-        android:layout_height="match_parent"
-        android:src="@drawable/plants" />
 
 </LinearLayout>
