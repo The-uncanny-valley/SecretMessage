@@ -22,7 +22,8 @@
         tools:layout="@layout/fragment_message" >
         <action
             android:id="@+id/action_messageFragment_to_encryptFragment"
-            app:destination="@id/encryptFragment" />
+            app:destination="@id/encryptFragment"
+            app:popUpTo="@id/welcomeFragment" />
     </fragment>
 
     <fragment
