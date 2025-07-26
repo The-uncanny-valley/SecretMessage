@@ -8,4 +8,5 @@
     android:background="@color/background"
     app:defaultNavHost="true"
     app:navGraph="@navigation/nav_graph"
+    android:name="androidx.navigation.fragment.NavHostFragment"
     tools:context=".MainActivity" />
