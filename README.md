@@ -45,3 +45,7 @@ The app securely encrypts user input using:
 
 ## License
 MIT License – feel free to use, fork, and contribute.
+
+## Credits
+
+The flower image used in the app UI was created by [Armine K](https://www.vecteezy.com/members/arnanami6308088) and sourced from [Vecteezy](https://www.vecteezy.com/).
